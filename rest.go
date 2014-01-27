@@ -48,6 +48,8 @@
 //  	body, err := ioutil.ReadAll(resp.Body)
 //  
 //  	fmt.Println(resp.Status, string(body))
+//  	// Output:
+//  	// 200 OK [{"Name":"joe"},{"Name":"sally"}]
 //  }
 package rest
 

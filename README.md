@@ -54,6 +54,8 @@ Example:
 		body, err := ioutil.ReadAll(resp.Body)
 	
 		fmt.Println(resp.Status, string(body))
+        // Output:
+    	// 200 OK [{"Name":"joe"},{"Name":"sally"}]
 	}
 ```
 
@@ -93,6 +95,7 @@ func (api *API) Start(port int)
 ## type BaseResource
 ``` go
 type BaseResource struct{}
+```
 
 
 ### func (BaseResource) Delete
