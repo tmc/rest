@@ -46,7 +46,7 @@ Example:
 	
 		go a.Start(8080)
 	
-		resp, err := http.Get("a href="http://127.0.0.1:8080/users">http://127.0.0.1:8080/users</a>")
+		resp, err := http.Get("http://127.0.0.1:8080/users")
 		if err != nil {
 			panic(err)
 		}
